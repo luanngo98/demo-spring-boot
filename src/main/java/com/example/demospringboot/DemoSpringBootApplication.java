@@ -17,6 +17,6 @@ public class DemoSpringBootApplication {
 
     @GetMapping("/hello")
     public ResponseEntity<String> hello() {
-        return new ResponseEntity<>("Hello baby", HttpStatus.OK);
+        return new ResponseEntity<>("Hello baby hihi", HttpStatus.OK);
     }
 }
